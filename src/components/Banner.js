@@ -57,11 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Aditya`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "React Developer", "Python Enthusiast", "Aspiring SDE" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm an aspiring software engineer with over 3 years of
-experience in web development. Currently, I am a sophomore at Vellore
-Institute of Technology studying Computer Science. My journey in programming
-started with a curiosity to understand how technology works, and it has since
-become my profession and passion. I strive to create efficient, scalable, and
+                  <p>I'm an aspiring software engineer with over 3 years of experience in web development. Currently, I am a sophomore at Vellore Institute of Technology studying Computer Science. My journey in programming
+started with a curiosity to understand how technology works, and it has since become my profession and passion. I strive to create efficient, scalable, and
 user-friendly solutions that meet the needs of clients and users.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
